@@ -1,0 +1,13 @@
+<resources>
+<string name="app_name">Assignment 1</string>
+<string-array name="fitness_goals_array">
+    <item>Steps</item>
+    <item>Calories</item>
+    <item>Distance</item>
+</string-array>
+<string-array name="quotes_array">
+    <item>"Believe you can and you're halfway there."</item>
+    <item>"Don't watch the clock; do what it does. Keep going."</item>
+    <item>"The future depends on what you do today."</item>
+</string-array>
+</resources>
