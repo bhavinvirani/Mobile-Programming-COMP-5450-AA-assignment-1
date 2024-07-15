@@ -58,6 +58,7 @@ class MainActivity : AppCompatActivity() {
             override fun onItemSelected(parent: AdapterView<*>, view: View?, position: Int, id: Long) {
                 val item = parent.getItemAtPosition(position).toString()
                 Toast.makeText(this@MainActivity, "Selected: $item", Toast.LENGTH_SHORT).show()
+                goaActivityInput.text.clear()
             }
 
             override fun onNothingSelected(parent: AdapterView<*>) {}
@@ -88,6 +89,8 @@ class MainActivity : AppCompatActivity() {
                     progressData.add(newActivity)
                 }
                 adapter.updateProgress(progressData)
+                goaActivityInput.text.clear()
+
             } else {
                 Toast.makeText(this, "Please enter value of activity", Toast.LENGTH_SHORT)
                     .show()
